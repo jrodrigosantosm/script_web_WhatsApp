@@ -31,34 +31,3 @@ print("Todas as mensagens enviadas!")
 
 while True:
     pass
-# time.sleep(7)
-
-# elemento_pesquisa.send_keys(Keys.ENTER)
-
-
-
-
-
-
-# //*[@id="APjFqb"]
-
-
-
-# navegador.get("https://web.whatsapp.com/")
-
-
-# WebDriverWait(navegador, 60).until(EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div/div/div[2]/div[3]/div/div[1]/div/div[2]/div[2]')))
-# print("Barra de pesquisa carregada com sucesso.")
-
-    
-# for i, mensagem in enumerate(contatos_df['Mensagem']):
-#     pessoa = contatos_df.loc[i, "Pessoa"]
-#     numero = contatos_df.loc[i, "Número"]
-#     texto = urllib.parse.quote(f"Oi {pessoa}! {mensagem}")
-#     link = f"https://web.whatsapp.com/send?phone=+5561981758678&text=aqui"
-#     navegador.get(link)
-#     time.sleep(60) 
-#     webdriver.find_element(By.CLASS_NAME, "selectable-text").key_down(Keys.ENTER).perform()
-#     print("texto enviado")
-#     time.sleep(60)
-
